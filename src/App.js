@@ -1,9 +1,11 @@
 import React from 'react'
-
-// Components
-import Mynavbar from "./components/My_Navbar/mynavbar.component"
-import './App.css';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// Components
+import './App.css';
+import Mynavbar from "./components/My_Navbar/mynavbar.component"
+import MyCarousal from './components/Carousel/my-carousel.component'
+import MyTitleMessage from './components/Message/title-message.component'
+
 
 const App = () => {
   return (
@@ -15,8 +17,8 @@ const App = () => {
         <Route path ='/' />
       </Switch>
       </Router>
-      
-      My Portfolio
+      <MyCarousal/>
+      <MyTitleMessage/>
     </div>
   );
 }

@@ -2,6 +2,8 @@
 {
     background-color: #060b26;
     /*background-color: darkkhaki;*/
+    position: relative;
+    
 }
 
 .color-nav a{
@@ -56,8 +58,9 @@
 
 .nav-menu.active
 {
-    left: 0;
+    left: 0 !important;
     transition: 350ms;
+    z-index: 99 !important;
 }
 
 .nav-text
