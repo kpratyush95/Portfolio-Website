@@ -5,7 +5,7 @@ import './App.css';
 import Mynavbar from "./components/My_Navbar/mynavbar.component"
 import MyCarousal from './components/Carousel/my-carousel.component'
 import MyTitleMessage from './components/Message/title-message.component'
-
+import About from './pages/About/about.components'
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
       </Router>
       <MyCarousal/>
       <MyTitleMessage/>
+      <About/>
     </div>
   );
 }
