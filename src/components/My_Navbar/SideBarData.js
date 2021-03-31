@@ -27,11 +27,5 @@ export const SideBarData=[
     path: '/resume',
     icon:<AiIcons.AiFillPushpin/>,
     cName:'nav-text'
-},
-{   
-    title: 'Contact',
-    path: '/contact',
-    icon:<AiIcons.AiFillContacts/>,
-    cName:'nav-text'
-},
+}
 ]

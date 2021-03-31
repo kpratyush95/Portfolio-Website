@@ -57,7 +57,6 @@ const Mynavbar = () =>
       <Nav.Link href="#aboutme">About Me</Nav.Link>
       <Nav.Link href="#resume">Resume</Nav.Link>
       <Nav.Link href="#projects">Projects</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
     </Nav>
    
   </Navbar.Collapse>

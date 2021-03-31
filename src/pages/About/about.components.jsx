@@ -3,14 +3,19 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import Button from 'react-bootstrap/Button'
+
 import Profile from '../../assets/img/profile/Prat_charging_bull.webp'
+
+import *as AiIcons from "react-icons/ai";
+
 
 
 const About = () => {
     return (
         <div id='about'>
             <div className="about">  
-                <h1 className="pt-3 text-center font details pb-3">About Me</h1>
+                <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
                     <Container>
                             <Row className="pt-2 pb-2 align-items-left">
                                 <Col xs={10} md={4}>
@@ -19,12 +24,13 @@ const About = () => {
                                     </Row>
                                     {/* Description */}
                                     <Row style={{textAlign: "justify"}}>
+                                    <Col>
                                     Hi there! I am <strong>&nbsp;Venkata Pratyush Kodavanti</strong>
                                      <br />I am a Computer Science Master's student from George Mason University, with an experience of 1 and half year as a software developer.
                                      Currently, I am a Graduate Teaching assistant at George Mason University, where I instruct Programming with Java for undergraduate students. 
+                                    </Col>    
                                     </Row>
                                     <Row>
-                                        <br/>
                                         <br/>
                                     </Row>
                                     <Row >
@@ -54,16 +60,18 @@ const About = () => {
                                         </Col>
                                     </Row>
                                     <Row>
-                                        <Col md={3}>
-                                            <strong>
-                                                Website:
-                                            </strong>
-                                        </Col>
-                                        <Col md={9}>
-                                        <a href="https://kpratyush95.github.io/" target="_blank">kpratyush95.github.io</a>
-                                        </Col>
+                                        <br/>
+                                        <br/>
                                     </Row>
+                                    <Row>
+                                        <Col md={3}></Col>
+                                        <Col md={3}>
+                                        <a href="">
+                                            <Button>Resume</Button>
+                                        </a>
                                 </Col>
+                                    </Row>
+                        </Col>
                                 <Col xs={1} md={1}></Col>
                                 <Col xs={10} md={7}>
                                     <Row>
@@ -188,11 +196,28 @@ const About = () => {
                                             Python (NumPy, Pandas, Scikit-Learn), Pytorch, TensorFlow.
                                         </Col>
                                     </Row>
-
+                                    <Row>
+                            </Row>
                                 </Col>
                             </Row>
-
                     </Container>  
+            </div>
+            <div className="icon-stand">
+                <div className="icon-outer">
+                    <div className="icon"> <a href="https://github.com/kpratyush95" target="_blank">
+                                    <AiIcons.AiFillGithub style={{  height: "35px", width: "35px", color:"black"}}></AiIcons.AiFillGithub>
+                                    </a></div>
+                </div>
+                <div className="icon-outer">
+                    <div className="icon">
+                    <a href="https://www.linkedin.com/in/pratyushkodavanti/" target="_blank">
+                                            <AiIcons.AiFillLinkedin style={{  height: "35px", width: "35px", color:"blue"}}></AiIcons.AiFillLinkedin>
+                                    </a>
+                                    <br/>
+                <br/>
+                    </div>
+               
+                </div>
             </div>
         </div>
     )
