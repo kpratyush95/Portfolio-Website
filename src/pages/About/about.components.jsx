@@ -66,7 +66,7 @@ const About = () => {
                                     <Row>
                                         <Col md={3}></Col>
                                         <Col md={3}>
-                                        <a href="">
+                                        <a target="_blank" href="https://drive.google.com/file/d/1gcnpQsD0CwQuackpOAoapQiozwWU-8SZ/view?usp=sharing">
                                             <Button>Resume</Button>
                                         </a>
                                 </Col>
@@ -76,7 +76,7 @@ const About = () => {
                                 <Col xs={10} md={7}>
                                     <Row>
                                         <Col>
-                                            <h2>
+                                            <h2 style={{marginTop:'0px'}}>
                                                 Education
                                             </h2>
                                         </Col>

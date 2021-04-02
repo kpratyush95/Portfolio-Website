@@ -12,20 +12,14 @@ export const SideBarData=[
 },
 {   
     title: 'About Me',
-    path: '/aboutme',
+    path: '/#about',
     icon:<IoIcons.IoIosPaper/>,
     cName:'nav-text'
 },
 {   
     title: 'Projects',
-    path: '/projects',
+    path: '/#projects',
     icon:<AiIcons.AiFillProject/>,
-    cName:'nav-text'
-},
-{   
-    title: 'Resume',
-    path: '/resume',
-    icon:<AiIcons.AiFillPushpin/>,
     cName:'nav-text'
 }
 ]

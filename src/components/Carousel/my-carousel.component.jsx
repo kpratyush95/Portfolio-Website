@@ -20,7 +20,6 @@ const MyCarousel = () => {
     <img className="d-block w-100 custom-img" src={Slide3} alt="Third slide"/>
   </Carousel.Item>
 </Carousel> 
-<ScrollDown/>
         </div>
     )
 }

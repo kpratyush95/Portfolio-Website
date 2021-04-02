@@ -38,12 +38,12 @@ const Mynavbar = () =>
           {
             return (
               <li key = {index} className={item.cName}>
-                <Link to={item.path}>
+                <Nav.Link href={item.path}>
                   {item.icon}
                   <span>
                     {item.title}
                   </span>
-                </Link>
+                </Nav.Link>
               </li>
             )
           } )}
@@ -53,9 +53,8 @@ const Mynavbar = () =>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="#">Home</Nav.Link>
-      <Nav.Link href="#aboutme">About Me</Nav.Link>
-      <Nav.Link href="#resume">Resume</Nav.Link>
+      <Nav.Link href="">Home</Nav.Link>
+      <Nav.Link href="#about">About Me</Nav.Link>
       <Nav.Link href="#projects">Projects</Nav.Link>
     </Nav>
    

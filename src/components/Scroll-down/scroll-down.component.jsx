@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
 
 const MyScroll = styled.div`
@@ -17,14 +17,17 @@ const MyScroll = styled.div`
     transform: rotate(90deg);
   }
 `;
+
 const ScrollDown = () => {
   return (
     <MyScroll>
       <div className="turn">
-        <span> &gt; </span>
+        <span> &gt; 
+          <a href="#about"></a>
+        </span>
       </div>
     </MyScroll>
-  )
-}
+  );
+};
 
-export default ScrollDown
+export default ScrollDown;
