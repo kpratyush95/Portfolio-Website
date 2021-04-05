@@ -1,6 +1,6 @@
 {
-  "name": "myportfolio",
   "homepage": "https://kpratyush95.github.io/Portfolio-website",
+  "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
