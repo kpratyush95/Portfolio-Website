@@ -16,14 +16,15 @@ const Mynavbar = () =>
     return (
     <>
     <IconContext.Provider value={{color:'#fff'}}> 
-    <Navbar collapseOnSelect expand="lg" className='color-nav' >
+    
+    <Navbar collapseOnSelect expand="lg" className='color-nav'>
       {/* bg="dark"> */}
   <Navbar.Brand
    href="#home">
      </Navbar.Brand>
      <div className='sidebardata'>
-          <Link to ='#' className='menu-bars'></Link>
-          <FaIcons.FaBars onClick={showSidebar}/>
+          {/* <Link to ='#' className='menu-bars'></Link>
+          <FaIcons.FaBars onClick={showSidebar}/> */}
           <span className='name'>Pratyush</span>
       </div>
       <nav className={sidebar ? 'nav-menu active': 'nav-menu'}>
@@ -61,7 +62,6 @@ const Mynavbar = () =>
   </Navbar.Collapse>
   </div>
 </Navbar>
-
 </IconContext.Provider>
     </>)
 }

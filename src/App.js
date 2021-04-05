@@ -36,6 +36,10 @@ const App = () => {
         </Parallax>
       </div>
       <Projects/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }

@@ -34,7 +34,7 @@ class Projects extends Component
                  <Container>
                     <Row>
                         <Col md={4}>
-                            <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400'}}>
+                            <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                             <CardTitle style={{color:"black", height:'70px'}}> 
                                 CPU Process Scheduler
                             </CardTitle>
@@ -50,7 +50,7 @@ class Projects extends Component
                             </Card>
                         </Col>
                         <Col md={4}>   
-                            <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400'}}>
+                            <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                 <CardTitle style={{color:"black", height:'70px'}}>RNP Calculator</CardTitle>
                                     <img src={Calc} width="327px" height="250px" ></img>
                                 <CardText>
@@ -66,7 +66,7 @@ class Projects extends Component
                             </Card> 
                         </Col>
                         <Col md={4}>
-                            <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400'}}>
+                            <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                             <CardTitle style={{color:"black", height:'70px', background:'center/cover',}}>Graph Library in C</CardTitle>
                             <img src={MST} width="327px" height="250px" ></img>
                             <CardText>
@@ -96,7 +96,7 @@ class Projects extends Component
 
                           </Col>
                       <Col md={4}>
-                            <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400'}}>
+                            <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                 <CardTitle style={{color:"black",  height:'70px'}}>Self Organising Trees</CardTitle>
                                 <img src={OBST} width="327px" height="250px" ></img>
                                 <CardText>
@@ -123,7 +123,7 @@ class Projects extends Component
                     <Container>
                         <Row>
                             <Col md={4}>
-                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400', maxHeight:'400'}}>
+                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                     <CardTitle style={{color:"black",  height:'90px'}}>Amazon Reviews - KNN classification</CardTitle>
                                         <img src={KNN} width="327px" height="230px" ></img>
                                         <CardText>
@@ -137,7 +137,7 @@ class Projects extends Component
                                 </Card>
                             </Col>
                             <Col md={4}>
-                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400', maxHeight:'400'}}>
+                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                     <CardTitle style={{color:"black",  height:'70px'}}>Credit Risk Prediction</CardTitle>
                                         <img src={Risk} width="327px" height="250px" ></img>
                                     <CardText>
@@ -151,7 +151,7 @@ class Projects extends Component
                                 </Card>
                             </Col>
                             <Col md={4}>
-                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400', maxHeight:'400' }}>
+                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                     <CardTitle style={{color:"black",  height:'70px'}}>Image Clustering</CardTitle>
                                     <img src={Cluster} width="327px" height="250px" ></img>
                                     <CardText>
@@ -170,7 +170,7 @@ class Projects extends Component
                         </Row>
                         <Row>
                             <Col md={4}>
-                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400', maxHeight:'400' }}>
+                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                     <CardTitle style={{color:"black", height:'70px'}}>Recommender Systems</CardTitle>
                                         <img src={Recommender} width="327px" height="250px" ></img>
                                         <CardText>
@@ -184,7 +184,7 @@ class Projects extends Component
                                 </Card>
                             </Col>
                             <Col md={4}>
-                                <Card shadow={5} style={{minWidth:'450', margin:'auto', minheight:'400', maxHeight:'400'}}>
+                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                     <CardTitle style={{color:"black",  height:'70px'}}>Kinship Classifier</CardTitle>
                                         <img src={Kinship} width="327px" height="250px" ></img>
                                     <CardText>
@@ -213,7 +213,7 @@ class Projects extends Component
                     <Container>
                         <Row>
                             <Col md={4}>
-                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400', maxHeight:'400'}}>
+                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                     <CardTitle style={{color:"black",  height:'70px'}}>Parts of Speech Tagger</CardTitle>
                                         <img src={Pos} width="327px" height="250px" ></img>
                                         <CardText>
@@ -227,7 +227,7 @@ class Projects extends Component
                                 </Card>
                             </Col>
                             <Col md={4}>
-                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'400', maxHeight:'400'}}>
+                                <Card shadow={5} style={{minWidth:'450', margin:'auto', height:'450px'}}>
                                     <CardTitle style={{color:"black",  height:'90px'}}>Multi Lingual Hate Speech Detector</CardTitle>
                                         <img src={Hsd} width="327px" height="250px" ></img>
                                         <CardText>
@@ -242,6 +242,7 @@ class Projects extends Component
                             </Col>
                             <Col md={4}></Col>
                         </Row>
+                            
                     </Container>
                 </div>
             )
